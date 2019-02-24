@@ -1,9 +1,9 @@
 sudo: false
 language: node_js
 node_js:
-  - '10'
-  - '11'
-# keep the npm cache to speed up installs
+  - lts/carbon
+  - lts/*
+  - node
 cache:
   directories:
     - '$HOME/.npm'

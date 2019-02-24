@@ -1,13 +1,16 @@
 {
   "name": "@infinitetoolbox/sudoku",
-  "version": "1.0.0",
-  "description": "Sudoku generator and solver",
+  "version": "0.0.1",
+  "description": "Sudoku solver",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
-  "repository": "https://github.com/emmanuelgautier/@infinitetoolbox/sudoku",
+  "repository": "https://github.com/@infinitetoolbox/sudoku",
   "license": "MIT",
-  "keywords": [],
+  "keywords": [
+    "sudoku",
+    "solver"
+  ],
   "scripts": {
     "describe": "npm-scripts-info",
     "build": "run-s clean && run-p build:*",
@@ -50,8 +53,11 @@
   "engines": {
     "node": ">=8.9"
   },
-  "dependencies": {},
+  "dependencies": {
+    "lodash.clonedeep": "^4.5.0"
+  },
   "devDependencies": {
+    "@types/lodash.clonedeep": "^4.5.5",
     "ava": "1.0.0-beta.7",
     "codecov": "^3.1.0",
     "cz-conventional-changelog": "^2.1.0",
