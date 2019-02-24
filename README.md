@@ -13,11 +13,12 @@ $ npm install @infinitetoolbox/sudoku
 
 ## Usage
 ```js
-import linkedinImport from '@infinitetoolbox/sudoku';
+import { solver } from '@infinitetoolbox/sudoku';
 
+solver([/*grid array*/]) // grids array solved
 ```
 
-[API](https://knohime.github.io/linkedin-import/)
+[API](https://infinitetoolbox.github.io/sudoku/)
 
 ## Maintainers
 
