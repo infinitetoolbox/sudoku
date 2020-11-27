@@ -58,7 +58,7 @@
   },
   "devDependencies": {
     "@emmanuelgautier/renovate-config": "^1.1.1",
-    "@types/lodash.clonedeep": "4.5.5",
+    "@types/lodash.clonedeep": "4.5.6",
     "ava": "1.0.0-beta.7",
     "codecov": "3.2.0",
     "cz-conventional-changelog": "2.1.0",
