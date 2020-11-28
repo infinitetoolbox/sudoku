@@ -72,7 +72,7 @@
     "tslint": "5.20.1",
     "tslint-config-prettier": "1.18.0",
     "tslint-immutable": "5.5.2",
-    "typedoc": "0.13.0",
+    "typedoc": "0.19.2",
     "typescript": "3.3.3333"
   },
   "ava": {
